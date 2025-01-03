@@ -55,3 +55,18 @@ button:hover{
    
     
 }
+footer{
+    background-color: #3E4150;
+    color: #b8b6b6;
+    height: 70px;
+    border-radius: 20;
+    margin-top:  300px;
+}
+.info {
+     padding-right: 600px; 
+    display: flex;
+    padding: 0px 20px;
+    justify-content:space-evenly;
+    
+    
+    }
