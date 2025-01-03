@@ -43,4 +43,15 @@ button{
 button:hover{
     background-color: rgb(160, 121, 121);
 }
-
+.text{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 160px;
+}
+.text h1{
+    font-size: 120px;
+    margin: 0px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif; 
+   
+    
+}
