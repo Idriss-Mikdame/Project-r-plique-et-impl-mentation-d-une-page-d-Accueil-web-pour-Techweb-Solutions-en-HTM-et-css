@@ -1,47 +1,46 @@
 body{
-    background-color: #000000;
-   margin: 0px;
-   box-sizing: border-box;
-}
+    margin: 0px;
 
+    background-color: rgb(0, 0, 0);
+}
 nav{
-    background-color: rgb(247, 247, 247);
-    height: 50PX;
     display: flex;
-    justify-content: space-between;
+    background-color: aliceblue;
+    height: 70px;
+    display: flex;
     align-items: center;
-    padding: 10px 30px;
-    margin-top: 0px;
-} 
+    justify-content: space-between;
+}
 .logo{
+    
     display: flex;
-    padding-right: 90px;
-    margin-top: 0px;
     cursor: pointer;
 }
-a{
-    color: #000;
-    padding: 5px 40px;
+.butt a{
+    margin: 15px;
+    padding: 10px 34px;
     text-decoration: none;
-    border-radius: 15px;
-    font-size: 18px;
-    font-family: 'Rboto', sans-serif;
+    color: #535353;
+    font-weight: bold;
+    font-size: 23px;
+    
 }
-a:hover{
-    color: rgb(37, 190, 236);
+.butt a:hover{
+    color: rgba(0, 225, 255, 0.363);
 }
 button{
-    color: beige;
+    margin-right: 20px;
     background-color: #000;
-    border: none;
+    color: aliceblue;
     border-radius: 10px;
-    padding: 3px 16px;
-    font-size: 15px;
-    font-family: 'Rboto', sans-serif;
-    cursor:pointer;
+    font-size: 23px;
+    cursor: pointer;
+    box-shadow: 0 0px 10px rgb(0, 0, 0);
 }
 button:hover{
-    background-color: rgb(160, 121, 121);
+    color: rgba(0, 225, 255, 0.363);
+    scale: 1.1;
+   text-shadow: 0 10xp 20px red;
 }
 .text{
     color: #ffffff;
@@ -50,23 +49,17 @@ button:hover{
 }
 .text h1{
     font-size: 120px;
-    margin: 0px;
-     font-family:Verdana, Geneva, Tahoma, sans-serif; 
-   
-    
+    margin: -2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 footer{
-    background-color: #3E4150;
-    color: #b8b6b6;
+    text-align: center;
+    padding: 3px;
     height: 70px;
-    border-radius: 20;
-    margin-top:  300px;
-}
-.info {
-     padding-right: 600px; 
-    display: flex;
-    padding: 0px 20px;
-    justify-content:space-evenly;
-    
-    
-    }
+    color: white;
+    margin-top: 225px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #3E4150
+  }
+
